@@ -16,6 +16,7 @@
 
 .header-logo {
   font-size: 1.5em;
+  font-weight: bold;
 }
 
 .header-links a {
@@ -24,30 +25,43 @@
   margin-left: 20px;
 }
 
-.hero {
+.section-1 {
   background-color: #1A2238;
   color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 50px;
+  padding: 20px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
-.hero-content h1 {
-  font-size: 2.5em;
+.section-1-content h1 {
+  margin-left: 300px;
+  font-size: 48px;
+  max-width: 500px;
 }
 
-.hero-content p {
+.subtext {
+  max-width: 400px;
+  margin-bottom: 18px;
+  margin-left: 300px;
+}
+
+.section1-content p {
   margin: 20px 0;
   max-width: 300px;
+  margin-left: 260px
 }
 
-.hero-content button {
+.sign-up {
+  margin-left: 300px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
   background-color: #3B82F6;
   color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
+  font-weight: bold;
 }
 
 .hero-image {
@@ -57,22 +71,31 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height 200px;
-  width: 50%;
+  height: 250px;
+  width: 30%;
+  max-width: 500px;
+  margin-right: 300px;
+  margin-left: 100px;
 }
 
-.information {
+.section-2 {
   padding: 50px;
   text-align: center;
+  margin-bottom: 100px;
 }
 
-.information h2 {
+.section-2 h2 {
   margin-bottom: 30px;
 }
 
 .info-cards {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  position: relative;
+}
+
+.info-cards .info-card {
+  margin-right: 40px;
 }
 
 .info-card {
@@ -85,31 +108,78 @@
   justify-content: center;
 }
 
-.quote {
-  background-color: #E5E7EB;
-  padding: 50px;
-  text-align: center;
+.info-card p {
+  margin-top: 220px;
 }
 
-.quote blockquote {
+.section-3 {
+  background-color: #E5E7EB;
+  margin-bottom: 20px;
+  padding: 50px;
+}
+
+.section-3-content {
+  display: flex;
+  justify-content: center;
   font-style: italic;
+  font-size: 36px;
+  font-weight: 300;
+  padding: 200px;
+  max-width: 2000px;
+}
+
+.section-4 {
+  margin-bottom: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.section-4-content {
+
+  margin-top: 100px;
+  padding: 100px;
+  background-color:#3B82F6;
+  color: white;
+  border-radius: 20px;
+  height: 80px;
+  width: 50%;;
+  
+}
+
+.section-4-content h3 {
+font-size: 24px;
+font-weight: bold;
+display: flex;
+justify-content: left;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+
+}
+
+.sign-up button {
+  margin-top: -150px;
+  background-color: #3B82F6;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 3px;
 }
 
 .footer {
-  background-color: #3B82F6;
+  background-color:#1A2238;
   color: white;
   text-align: center;
-  padding: 50px 20px;
-}
-
-.footer .footer-content {
-  margin-bottom: 20px;
-}
-
-.footer button {
-  background-color: white;
-  color: #3B82F6;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
+  padding: 40px 20px;
+  border-color: pink;
+  border: 20px;
+  border-width: 20px;
 }
